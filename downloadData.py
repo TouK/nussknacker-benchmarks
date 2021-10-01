@@ -1,22 +1,20 @@
-import urllib.request; 
-import json
 import zipfile
 import requests
 from io import BytesIO,TextIOWrapper
 import csv
-from collections import defaultdict
-import re
-from pathlib import Path
 import os
 
-username = os.environ.get('USER')
-password = os.environ.get('PASSWORD')
+token = os.environ.get('TOKEN')
+
+def invokeGithub(url): 
+    headers = {'Authorization': "Bearer {}".format(token)}
+    return requests.get(url, headers=headers)
 
 def getJson(url):
-    return requests.get(url, auth=(username, password)).json()
+    return invokeGithub(url).json()
 
 def zipContent(url):
-    content = requests.get(url, auth=(username, password)).content
+    content = invokeGithub(url).content
     zip_file_object = zipfile.ZipFile(BytesIO(content))
     first_file = zip_file_object.namelist()[0]
     file = zip_file_object.open(first_file)

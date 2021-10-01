@@ -1,9 +1,9 @@
 name: Download 
-#on: push
-on:
-  schedule:
-    - cron: '0 2 * * *'
-  workflow_dispatch:
+on: push
+#on:
+#  schedule:
+#    - cron: '0 2 * * *'
+#  workflow_dispatch:
 
 
 jobs:
@@ -16,7 +16,8 @@ jobs:
 
       - name: Update source code
         run: python3 downloadData.py
-
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
