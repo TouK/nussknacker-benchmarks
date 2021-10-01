@@ -1,0 +1,25 @@
+name: Download 
+#on: push
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+
+jobs:
+  run:
+    name: Update benchmark versions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Update source code
+        run: python3 downloadData.py
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: 'Update benchmark data'
+          add: '*.csv'
+
