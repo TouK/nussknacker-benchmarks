@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+<script src="https://d3js.org/d3.v6.js"></script>
+
+<div id="microbenchmarks"></div>
+<div id="e2e"></div>
+
+<script>
+
+const print = (name, nameField, valueField, label, title) => {
+  d3.csv(`data/${name}.csv`).then( function(data) {
+
+  data.sort(d => new Date(d.Date)).reverse()
+
+  var traceNames = [...new Set(data.map(line => line[nameField]))]
+  for (trace in traces) {
+    forTrace = data.filter(data => data[nameField] == trace)
+
+  }
+  var traces = traceNames.map(name => {
+    dataForTrace = data.filter(line => line[nameField] == name)
+    return {
+      x: dataForTrace.map(line => new Date(line.Date).toDateString()),
+      y: dataForTrace.map(line => line[valueField]),
+      type: 'scatter',
+      name: label(name, dataForTrace[0])
+    }
+  });
+  Plotly.newPlot(name, traces, {title: title});
+  });
+
+}
+
+print('microbenchmarks', 'Benchmark', 'Score', (name, row) => name.replace(/.*\./, '') + ` (${row.Unit})`, "Microbenchmarks")
+print('e2e', 'Time', 'Value', (name, row) => name.replace(/:/, ''), "E2E benchmark")
+
+</script>
