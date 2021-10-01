@@ -34,6 +34,6 @@ const print = (name, nameField, valueField, label, title) => {
 }
 
 print('microbenchmarks', 'Benchmark', 'Score', (name, row) => name.replace(/.*\./, '') + ` (${row.Unit})`, "Microbenchmarks")
-print('e2e', 'Time', 'Value', (name, row) => name.replace(/:/, ''), "E2E benchmark")
+print('e2e', 'Step', 'Value', (name, row) => name.replace(/:/, ''), "E2E benchmark")
 
 </script>
