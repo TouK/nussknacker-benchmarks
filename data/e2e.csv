@@ -1,4 +1,7 @@
 Date,Step,Value
+2021-10-06T02:46:28Z,Preparation of test data in ms:,701201
+2021-10-06T02:46:28Z,Import and deploy scenario time ms: ,38040
+2021-10-06T02:46:28Z,Overall benchmark time ms: ,1243364
 2021-10-05T02:38:10Z,Preparation of test data in ms:,440227
 2021-10-05T02:38:10Z,Import and deploy scenario time ms: ,25441
 2021-10-05T02:38:10Z,Overall benchmark time ms: ,779598
