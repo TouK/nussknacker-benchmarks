@@ -1,5 +1,6 @@
 # nussknacker-benchmarks
 
+## Visualization
 https://touk.github.io/nussknacker-benchmarks/
 
 Projects downloads and displays data from benchmarks in [Nussknacker](https://github.com/TouK/nussknacker/blob/staging/.github/workflows/benchmark.yml)
