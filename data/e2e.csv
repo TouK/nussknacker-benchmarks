@@ -1,4 +1,7 @@
 Date,Step,Value
+2022-01-22T02:41:18Z,Preparation of test data in ms:,538311
+2022-01-22T02:41:18Z,Import and deploy scenario time ms: ,28743
+2022-01-22T02:41:18Z,Overall benchmark time ms: ,897989
 2022-01-21T02:47:38Z,Preparation of test data in ms:,724297
 2022-01-21T02:47:38Z,Import and deploy scenario time ms: ,34323
 2022-01-21T02:47:38Z,Overall benchmark time ms: ,1213333
@@ -86,6 +89,3 @@ Date,Step,Value
 2021-12-24T02:47:43Z,Preparation of test data in ms:,568109
 2021-12-24T02:47:43Z,Import and deploy scenario time ms: ,29185
 2021-12-24T02:47:43Z,Overall benchmark time ms: ,927672
-2021-12-23T02:47:41Z,Preparation of test data in ms:,540556
-2021-12-23T02:47:41Z,Import and deploy scenario time ms: ,33503
-2021-12-23T02:47:41Z,Overall benchmark time ms: ,896332
