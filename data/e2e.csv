@@ -1,4 +1,11 @@
 Date,Step,Value
+2022-02-04T02:31:59Z,Preparation of test data in ms:,649975
+2022-02-04T02:31:59Z,Import and deploy scenario time ms: ,39786
+2022-02-04T02:31:59Z,Overall benchmark time ms: ,1075891
+2022-02-03T19:52:07Z,|prepareData,43700.00|,|runScenario,41850.00|
+2022-02-03T19:52:07Z,|verifyResult,2450.00|
+2022-02-03T19:39:14Z,|prepareData,42120.00|,|runScenario,36950.00|
+2022-02-03T19:39:14Z,|verifyResult,2580.00|
 2022-02-03T02:42:32Z,Preparation of test data in ms:,647623
 2022-02-03T02:42:32Z,Import and deploy scenario time ms: ,34474
 2022-02-03T02:42:32Z,Overall benchmark time ms: ,1081928
@@ -74,18 +81,3 @@ Date,Step,Value
 2022-01-10T02:54:58Z,Preparation of test data in ms:,669826
 2022-01-10T02:54:58Z,Import and deploy scenario time ms: ,34401
 2022-01-10T02:54:58Z,Overall benchmark time ms: ,1189407
-2022-01-09T02:51:45Z,Preparation of test data in ms:,573699
-2022-01-09T02:51:45Z,Import and deploy scenario time ms: ,34492
-2022-01-09T02:51:45Z,Overall benchmark time ms: ,970502
-2022-01-08T02:54:29Z,Preparation of test data in ms:,662473
-2022-01-08T02:54:29Z,Import and deploy scenario time ms: ,35174
-2022-01-08T02:54:29Z,Overall benchmark time ms: ,1085990
-2022-01-07T02:54:45Z,Preparation of test data in ms:,628714
-2022-01-07T02:54:45Z,Import and deploy scenario time ms: ,34712
-2022-01-07T02:54:45Z,Overall benchmark time ms: ,1038967
-2022-01-06T02:55:28Z,Preparation of test data in ms:,649666
-2022-01-06T02:55:28Z,Import and deploy scenario time ms: ,39955
-2022-01-06T02:55:28Z,Overall benchmark time ms: ,1075380
-2022-01-05T02:57:20Z,Preparation of test data in ms:,802934
-2022-01-05T02:57:20Z,Import and deploy scenario time ms: ,39652
-2022-01-05T02:57:20Z,Overall benchmark time ms: ,1360146
