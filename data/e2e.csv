@@ -1,4 +1,6 @@
 Date,Step,Value
+2022-02-22T02:30:10Z,|prepareData,422170.00|,|runScenario,28770.00|
+2022-02-22T02:30:10Z,|verifyResult,459130.00|
 2022-02-21T02:37:42Z,|prepareData,578520.00|,|runScenario,40520.00|
 2022-02-21T02:37:42Z,|verifyResult,735320.00|
 2022-02-20T02:34:14Z,|prepareData,439670.00|,|runScenario,28840.00|
@@ -39,5 +41,3 @@ Date,Step,Value
 2022-02-04T02:31:59Z,Overall benchmark time ms: ,1075891
 2022-02-03T19:52:07Z,|prepareData,43700.00|,|runScenario,41850.00|
 2022-02-03T19:52:07Z,|verifyResult,2450.00|
-2022-02-03T19:39:14Z,|prepareData,42120.00|,|runScenario,36950.00|
-2022-02-03T19:39:14Z,|verifyResult,2580.00|
