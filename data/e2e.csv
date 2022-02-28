@@ -1,4 +1,8 @@
 Date,Step,Value
+2022-02-28T02:41:32Z,|prepareData,591480.00|,|runScenario,40360.00|
+2022-02-28T02:41:32Z,|verifyResult,714260.00|
+2022-02-27T02:34:52Z,|prepareData,461450.00|,|runScenario,34120.00|
+2022-02-27T02:34:52Z,|verifyResult,507950.00|
 2022-02-26T02:31:00Z,|prepareData,423320.00|,|runScenario,28390.00|
 2022-02-26T02:31:00Z,|verifyResult,434250.00|
 2022-02-25T02:37:26Z,|prepareData,523100.00|,|runScenario,40410.00|
@@ -38,9 +42,3 @@ Date,Step,Value
 2022-02-07T02:42:22Z,Preparation of test data in ms:,509708
 2022-02-07T02:42:22Z,Import and deploy scenario time ms: ,34512
 2022-02-07T02:42:22Z,Overall benchmark time ms: ,933654
-2022-02-06T02:58:09Z,Preparation of test data in ms:,846374
-2022-02-06T02:58:09Z,Import and deploy scenario time ms: ,39803
-2022-02-06T02:58:09Z,Overall benchmark time ms: ,1404426
-2022-02-05T02:27:58Z,Preparation of test data in ms:,532961
-2022-02-05T02:27:58Z,Import and deploy scenario time ms: ,28754
-2022-02-05T02:27:58Z,Overall benchmark time ms: ,890341
