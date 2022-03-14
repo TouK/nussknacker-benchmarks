@@ -1,4 +1,6 @@
 Date,Step,Value
+2022-03-14T02:42:15Z,|prepareData,476150.00|,|runScenario,34520.00|
+2022-03-14T02:42:15Z,|verifyResult,501140.00|
 2022-03-13T02:40:49Z,|prepareData,566770.00|,|runScenario,46510.00|
 2022-03-13T02:40:49Z,|verifyResult,716630.00|
 2022-03-12T02:31:32Z,|prepareData,403660.00|,|runScenario,28470.00|
