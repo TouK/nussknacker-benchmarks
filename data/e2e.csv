@@ -13,5 +13,3 @@ Date,Step,Value
 2022-07-30T03:00:43Z,|verifyResult,271790.00|
 2022-07-29T03:05:40Z,|prepareData,192680.00|,|runScenario,39280.00|
 2022-07-29T03:05:40Z,|verifyResult,306600.00|
-2022-07-28T03:00:44Z,|prepareData,239330.00|,|runScenario,50930.00|
-2022-07-28T03:00:44Z,|verifyResult,346600.00|
