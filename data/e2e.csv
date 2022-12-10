@@ -21,7 +21,3 @@ Date,Step,Value
 2022-11-23T19:17:09Z,|verifyResult,425050.00|
 2022-11-23T14:05:11Z,|prepareData,274090.00|,|runScenario,28810.00|
 2022-11-23T14:05:11Z,|verifyResult,422960.00|
-2022-11-23T02:46:47Z,|prepareData,205460.00|,|runScenario,39640.00|
-2022-11-23T02:46:47Z,|verifyResult,340140.00|
-2022-11-22T13:59:14Z,|prepareData,208450.00|,|runScenario,44690.00|
-2022-11-22T13:59:14Z,|verifyResult,351710.00|
