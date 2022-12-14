@@ -5,9 +5,3 @@ Date,Step,Value
 2022-11-28T02:51:01Z,|verifyResult,569040.00|
 2022-11-27T02:51:16Z,|prepareData,286980.00|,|runScenario,30140.00|
 2022-11-27T02:51:16Z,|verifyResult,539370.00|
-2022-11-26T02:44:55Z,|prepareData,235110.00|,|runScenario,46070.00|
-2022-11-26T02:44:55Z,|verifyResult,405070.00|
-2022-11-25T02:47:47Z,|prepareData,209090.00|,|runScenario,39760.00|
-2022-11-25T02:47:47Z,|verifyResult,347100.00|
-2022-11-24T15:33:00Z,|prepareData,207860.00|,|runScenario,38910.00|
-2022-11-24T15:33:00Z,|verifyResult,291000.00|
