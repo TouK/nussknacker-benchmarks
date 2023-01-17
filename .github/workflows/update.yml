@@ -22,6 +22,8 @@ jobs:
         with:
           message: 'Update benchmark data'
           add: '*.csv'
+          author_name: 'Nussknacker'
+          author_email: 'info@nussknacker.io'
           committer_name: 'Nussknacker'
           committer_email: 'info@nussknacker.io'
 
