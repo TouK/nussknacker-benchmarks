@@ -1,0 +1,7 @@
+Date,Step,Value
+2023-12-08T22:03:19Z,|prepareData,12170.00|,|runScenario,23070.00|
+2023-12-08T22:03:19Z,|verifyResult,1610.00|
+2023-12-08T22:17:50Z,|prepareData,993600.00|,|runScenario,29040.00|
+2023-12-08T22:17:50Z,|verifyResult,277970.00|
+2023-12-08T16:03:29Z,|prepareData,13040.00|,|runScenario,23320.00|
+2023-12-08T16:03:29Z,|verifyResult,1730.00|
