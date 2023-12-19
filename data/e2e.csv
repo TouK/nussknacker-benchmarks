@@ -1,4 +1,6 @@
 Date,Step,Value
+2023-12-19T02:33:06Z,|prepareData,585060.00|,|runScenario,23300.00|
+2023-12-19T02:33:06Z,|verifyResult,319040.00|
 2023-12-18T02:33:44Z,|prepareData,588550.00|,|runScenario,23220.00|
 2023-12-18T02:33:44Z,|verifyResult,309140.00|
 2023-12-17T17:55:13Z,|prepareData,588980.00|,|runScenario,23210.00|
