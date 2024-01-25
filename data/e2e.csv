@@ -45,11 +45,3 @@ Date,Step,Value
 2024-01-15T13:12:49Z,|verifyResult,330380.00|
 2024-01-15T10:53:50Z,|prepareData,587950.00|,|runScenario,23620.00|
 2024-01-15T10:53:50Z,|verifyResult,320210.00|
-2024-01-15T10:53:11Z,|prepareData,589370.00|,|runScenario,23790.00|
-2024-01-15T10:53:11Z,|verifyResult,336570.00|
-2024-01-15T02:35:51Z,|prepareData,595410.00|,|runScenario,23420.00|
-2024-01-15T02:35:51Z,|verifyResult,341650.00|
-2024-01-14T02:36:08Z,|prepareData,594030.00|,|runScenario,23250.00|
-2024-01-14T02:36:08Z,|verifyResult,335230.00|
-2024-01-13T02:33:26Z,|prepareData,590280.00|,|runScenario,23880.00|
-2024-01-13T02:33:26Z,|verifyResult,334390.00|
