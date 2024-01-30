@@ -23,7 +23,3 @@ Date,Step,Value
 2024-01-18T11:06:26Z,|verifyResult,326290.00|
 2024-01-18T11:00:05Z,|prepareData,587880.00|,|runScenario,24350.00|
 2024-01-18T11:00:05Z,|verifyResult,328860.00|
-2024-01-18T02:34:52Z,|prepareData,590500.00|,|runScenario,23770.00|
-2024-01-18T02:34:52Z,|verifyResult,347040.00|
-2024-01-17T17:17:50Z,|prepareData,587070.00|,|runScenario,23220.00|
-2024-01-17T17:17:50Z,|verifyResult,351740.00|
