@@ -1,4 +1,8 @@
 Date,Step,Value
+2024-02-18T02:30:04Z,|prepareData,588530.00|,|runScenario,23740.00|
+2024-02-18T02:30:04Z,|verifyResult,337920.00|
+2024-02-17T11:53:51Z,|prepareData,589430.00|,|runScenario,23860.00|
+2024-02-17T11:53:51Z,|verifyResult,328210.00|
 2024-02-17T02:27:49Z,|prepareData,589020.00|,|runScenario,23090.00|
 2024-02-17T02:27:49Z,|verifyResult,329800.00|
 2024-02-16T15:07:53Z,|prepareData,585900.00|,|runScenario,23630.00|
@@ -55,7 +59,3 @@ Date,Step,Value
 2024-02-09T02:27:46Z,|verifyResult,328040.00|
 2024-02-08T22:38:02Z,|prepareData,585910.00|,|runScenario,23900.00|
 2024-02-08T22:38:02Z,|verifyResult,315490.00|
-2024-02-08T12:40:25Z,|prepareData,585010.00|,|runScenario,23470.00|
-2024-02-08T12:40:25Z,|verifyResult,335820.00|
-2024-02-08T02:27:49Z,|prepareData,586410.00|,|runScenario,23170.00|
-2024-02-08T02:27:49Z,|verifyResult,334020.00|
