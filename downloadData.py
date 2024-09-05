@@ -55,7 +55,7 @@ def rewriteToCsv(urlWithDates, appendFile, name):
             content = zipContent(urlWithDate['url'])
             appendFile(content, urlWithDate['date'], aggregated, idx > 0)    
 
-rewriteToCsv(allArtifactsWithDates("nussknacker", "benchmark.yml"), appendFileJson, 'microbenchmarks')
-rewriteToCsv(allArtifactsWithDates("nussknacker-quickstart", "benchmark-workflow.yml"), appendFileLines, 'e2e')
+rewriteToCsv(allArtifactsWithDates("nussknacker", "benchmark-jmh.yml"), appendFileJson, 'microbenchmarks')
+rewriteToCsv(allArtifactsWithDates("nussknacker", "benchmark-e2e.yml"), appendFileLines, 'e2e')
 
 
