@@ -1,4 +1,6 @@
 Date,Step,Value
+2024-09-27T00:26:21Z,|prepareData,3932663.00|,|runScenario,10504.00|
+2024-09-27T00:26:21Z,|verifyResult,550251.00|,
 2024-09-26T00:21:36Z,|prepareData,3624975.00|,|runScenario,10470.00|
 2024-09-26T00:21:36Z,|verifyResult,587583.00|,
 2024-09-25T00:18:53Z,|prepareData,3489691.00|,|runScenario,10567.00|
