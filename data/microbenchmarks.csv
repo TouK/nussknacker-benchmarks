@@ -1,4 +1,14 @@
 Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkAsyncService,thrpt,1,8,207389.388368,1428.123516,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkSyncService,thrpt,1,8,210837.560577,995.265898,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureAsyncService,thrpt,1,8,41290.073855,623.190925,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureSyncService,thrpt,1,8,1204303.903471,4753.754307,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOAsyncService,thrpt,1,8,39832.928985,867.795091,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOSyncService,thrpt,1,8,775023.521986,3913.345282,ops/s
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.039345,0.000235,us/op
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.090699,0.000414,us/op
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,3.884175,0.819811,ms/op
+2025-07-08T23:22:04Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,7.241784,1.739159,ms/op
 2025-07-07T23:22:01Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkAsyncService,thrpt,1,8,211425.845812,655.652999,ops/s
 2025-07-07T23:22:01Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkSyncService,thrpt,1,8,213250.788797,587.784043,ops/s
 2025-07-07T23:22:01Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureAsyncService,thrpt,1,8,41602.104838,914.383482,ops/s
@@ -473,21 +483,3 @@ Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
 2025-06-09T23:37:13Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.091973,0.000134,us/op
 2025-06-09T23:37:13Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.380324,1.686186,ms/op
 2025-06-09T23:37:13Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,6.656706,4.539562,ms/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkAsyncService,thrpt,1,8,196495.706852,341.902577,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkSyncService,thrpt,1,8,191933.995233,330.836690,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureAsyncService,thrpt,1,8,41185.977753,503.338803,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureSyncService,thrpt,1,8,973987.888031,7122.013353,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOAsyncService,thrpt,1,8,40675.576199,317.671455,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOSyncService,thrpt,1,8,660918.017449,1467.004625,ops/s
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.027002,0.000097,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.avro.AvroBenchmark.defaultFlinkKryoRoundTripSerialization,avgt,1,8,12.272492,0.030880,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.avro.AvroBenchmark.schemaIdBasedKryoRoundTripSerialization,avgt,1,8,1.787804,0.004858,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.genericScalaMapSerialization,avgt,1,8,2.962186,0.009231,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.genericSerialization,avgt,1,8,10.257972,0.023829,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.genericTypedMapSerialization,avgt,1,8,1.764223,0.006623,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.typingResultScalaMapSerialization,avgt,1,8,0.560477,0.000583,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.typingResultSerialization,avgt,1,8,0.892374,0.001059,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.serialization.typedinfo.TypingResultBasedSerializationBenchmark.typingResultTypedMapSerialization,avgt,1,8,0.459427,0.004295,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.094571,0.000115,us/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.296312,0.766355,ms/op
-2025-06-08T23:37:12Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,5.927954,2.650461,ms/op
