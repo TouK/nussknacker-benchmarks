@@ -1,4 +1,6 @@
 Date,Step,Value
+2025-08-05T00:22:03Z,|prepareData,3658870.00|,|runScenario,10668.00|
+2025-08-05T00:22:03Z,|verifyResult,500220.00|,
 2025-08-04T00:19:43Z,|prepareData,3550944.00|,|runScenario,10588.00|
 2025-08-04T00:19:43Z,|verifyResult,499750.00|,
 2025-08-03T00:18:49Z,|prepareData,3458861.00|,|runScenario,10652.00|
@@ -57,5 +59,3 @@ Date,Step,Value
 2025-07-08T00:19:10Z,|verifyResult,510406.00|,
 2025-07-07T00:17:43Z,|prepareData,3457438.00|,|runScenario,10634.00|
 2025-07-07T00:17:43Z,|verifyResult,489280.00|,
-2025-07-06T00:19:03Z,|prepareData,3513820.00|,|runScenario,10576.00|
-2025-07-06T00:19:03Z,|verifyResult,510259.00|,
