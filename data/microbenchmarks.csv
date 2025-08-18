@@ -1,4 +1,8 @@
 Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
+2025-08-17T23:11:27Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.040002,0.000112,us/op
+2025-08-17T23:11:27Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.054128,0.000081,us/op
+2025-08-17T23:11:27Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.215976,1.171543,ms/op
+2025-08-17T23:11:27Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,6.384095,2.720360,ms/op
 2025-08-16T23:11:07Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.039912,0.000061,us/op
 2025-08-16T23:11:07Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.054496,0.000131,us/op
 2025-08-16T23:11:07Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.151059,0.433996,ms/op
@@ -181,13 +185,3 @@ Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
 2025-07-19T23:22:15Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.089990,0.000042,us/op
 2025-07-19T23:22:15Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,3.728439,1.093232,ms/op
 2025-07-19T23:22:15Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,7.934210,2.011391,ms/op
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkAsyncService,thrpt,1,8,209770.757014,721.497028,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.ManyParamsInterpreterBenchmark.benchmarkSyncService,thrpt,1,8,221505.335637,178.947853,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureAsyncService,thrpt,1,8,41507.920972,797.706652,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkFutureSyncService,thrpt,1,8,1177006.004927,1783.381741,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOAsyncService,thrpt,1,8,40448.515502,712.299255,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.interpreter.OneParamInterpreterBenchmark.benchmarkIOSyncService,thrpt,1,8,750383.494771,1171.538856,ops/s
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.035576,0.000048,us/op
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.090590,0.000124,us/op
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,3.885860,0.847772,ms/op
-2025-07-18T23:22:23Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,7.419869,1.082853,ms/op
