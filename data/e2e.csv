@@ -1,4 +1,6 @@
 Date,Step,Value
+2025-09-28T00:19:16Z,|prepareData,3467533.00|,|runScenario,10564.00|
+2025-09-28T00:19:16Z,|verifyResult,520893.00|,
 2025-09-27T00:20:39Z,|prepareData,3543166.00|,|runScenario,10733.00|
 2025-09-27T00:20:39Z,|verifyResult,513942.00|,
 2025-09-26T00:18:20Z,|prepareData,3447326.00|,|runScenario,10563.00|
