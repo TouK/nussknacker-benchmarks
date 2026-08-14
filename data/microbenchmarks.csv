@@ -1,4 +1,8 @@
 Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
+2026-08-13T23:22:41Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.034749,0.000205,us/op
+2026-08-13T23:22:41Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.058027,0.000382,us/op
+2026-08-13T23:22:41Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,3.808143,0.787026,ms/op
+2026-08-13T23:22:41Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,6.874427,2.269280,ms/op
 2026-08-12T23:22:39Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.032919,0.000524,us/op
 2026-08-12T23:22:39Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.058271,0.000773,us/op
 2026-08-12T23:22:39Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.229271,2.264647,ms/op
@@ -115,7 +119,3 @@ Date,Benchmark,Mode,Threads,Samples,Score,Score Error (99.9%),Unit
 2026-07-15T23:28:01Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.055998,0.000147,us/op
 2026-07-15T23:28:01Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.834954,1.609633,ms/op
 2026-07-15T23:28:01Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,6.664174,1.251354,ms/op
-2026-07-14T23:26:10Z,pl.touk.nussknacker.engine.benchmarks.aggregate.AggregatorBenchamark.sumAggregatorAdd,avgt,1,8,0.037036,0.000075,us/op
-2026-07-14T23:26:10Z,pl.touk.nussknacker.engine.benchmarks.spel.SampleSpelBenchmark.benchmark,avgt,1,8,0.058333,0.000261,us/op
-2026-07-14T23:26:10Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.chainCallBenchmark,ss,1,8,4.405113,1.300869,ms/op
-2026-07-14T23:26:10Z,pl.touk.nussknacker.engine.benchmarks.suggester.ExpressionSuggesterBenchmark.complexExpressionBenchmark,ss,1,8,6.567090,2.577184,ms/op
